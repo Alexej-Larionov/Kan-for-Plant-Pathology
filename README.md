@@ -5,4 +5,6 @@ todo:
 - [ ] Post activation hooks, kernel visualization
 - [ ] Activation atlases
 - [ ] Validation and performance
-   
+
+Cool activations
+   ![alt text](image.png)
