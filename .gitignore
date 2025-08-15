@@ -180,3 +180,5 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 initial.md
+data
+models/data
