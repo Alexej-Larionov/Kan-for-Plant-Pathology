@@ -183,3 +183,4 @@ initial.md
 data
 models/data
 *.png
+*.pt
