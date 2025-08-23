@@ -12,7 +12,9 @@ device="cuda:0" if torch.cuda.is_available() else "cpu"
 def create_model_CNN():
     model=nn.Sequential(
         Conv2d(3,5,padding=1, kernel_size=3, stride=1),
+        nn.ReLU(),
         Conv2d(5,64,padding=2, kernel_size=5, stride=1),
+        nn.ReLU(),
         nn.AdaptiveAvgPool2d(1),
         nn.Flatten(),
     ).to(device)

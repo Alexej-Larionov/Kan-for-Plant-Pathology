@@ -184,3 +184,7 @@ data
 models/data
 *.png
 *.pt
+BRAVO_SOFT
+*.jpg
+*.jpeg
+Pear/Pear/annotation/YOLO
